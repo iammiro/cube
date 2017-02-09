@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+  body
+    div.column
+      - var n = 0
+        while n < 5
+            div.row= n++
+              - var i = 0
+                while i < 5
+                  div.cube.spin= i++
+                    figure.side.top
+                    figure.side.left
+                    figure.side.right
